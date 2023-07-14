@@ -7,7 +7,7 @@ class Person
     protected String email;
     
 
-    public void displayinfo1()
+    public void displayinfo()
     {
         System.out.println("Name =" +name);
         System.out.println("Age =" +age);
@@ -18,7 +18,7 @@ class Teacher extends Person
 {
     private String password;
 
-    public void displayinfo2()
+    public void displayinfo()
     {
         System.out.println("Name =" +name);
         System.out.println("Age =" +age);
@@ -48,7 +48,7 @@ public static void main(String[] args) {
     t1.setPassword("678ar");
     System.out.println("Password="+t1.getPassword());
 
-    t1.displayinfo2();
+    t1.displayinfo();
 
 }   
 
