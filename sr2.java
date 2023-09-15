@@ -1,4 +1,5 @@
 //Single responsibilty 
+//SADP task 1
 
 class Cloth
 {
