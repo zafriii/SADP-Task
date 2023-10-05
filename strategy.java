@@ -1,3 +1,4 @@
+//Task 6
 //Strategy
 
 interface IStrategy {
