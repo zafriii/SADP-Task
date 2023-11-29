@@ -1,5 +1,5 @@
 //Task 6
-//Strategy
+//Strategy pattern
 
 interface IStrategy {
    public int doOperation(int a, int b);
